@@ -44,7 +44,7 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
                 textAlign={"left"}
                 fontWeight={selectedGenre?.id === genre.id ? "bold" : "normal"}
                 backgroundColor={
-                  selectedGenre?.id === genre.id ? "blue" : "transparent"
+                  selectedGenre?.id === genre.id ? "gray.600" : "transparent"
                 }
                 borderRadius={8}
                 padding="8px"
